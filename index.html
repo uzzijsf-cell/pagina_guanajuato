@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Guanajuato</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    scroll-behavior: smooth;
+    background: #f4f4f4;
+    margin-left: 220px;
+}
+
+header {
+    background: url("gua.jpg") no-repeat center/cover;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+/* FONDO OSCURO PARA TEXTO */
+header h1 {
+    background: rgba(0,0,0,0.5);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+/* MENÚ LATERAL */
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 220px;
+    height: 100%;
+    background: #333;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+nav a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    border-bottom: 1px solid #555;
+}
+
+nav a:hover {
+    background: #8B0000;
+}
+
+/* SECCIONES */
+section {
+    padding: 40px;
+}
+
+h2 {
+    color: #8B0000;
+}
+
+/* CARRUSEL */
+.carrusel {
+    max-width: 500px;
+    margin: auto;
+}
+
+.carrusel img {
+    width: 100%;
+    border-radius: 10px;
+    display: none;
+}
+
+.carrusel img.active {
+    display: block;
+}
+
+/* BOTÓN SUBIR */
+#topBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    background: #8B0000;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Guanajuato</h1>
+</header>
+
+<nav>
+<a href="#info">Información</a>
+<a href="#lugares">Lugares</a>
+<a href="#cultura">Cultura</a>
+<a href="#imagenes">Imágenes</a>
+<a href="#video">Video</a>
+<a href="#ubicacion">Ubicación</a>
+</nav>
+
+<section id="info">
+<h2>Información</h2>
+<p>Antes de la llegada de los españoles, la región de Guanajuato estaba habitada por grupos indígenas, principalmente chichimecas, que eran pueblos nómadas y guerreros.
+En el siglo XVI, los españoles descubrieron grandes yacimientos de plata, lo que provocó el crecimiento de la región. Guanajuato se convirtió en uno de los centros mineros más importantes de la Nueva España, destacando minas como la Valenciana. Gracias a esto, hubo mucha riqueza y desarrollo, pero también desigualdad social.
+
+A inicios del siglo XIX, Guanajuato fue escenario del inicio de la Independencia de México. En 1810, el movimiento encabezado por Miguel Hidalgo llegó a la ciudad, donde ocurrió la toma de la Alhóndiga de Granaditas, un evento clave contra el dominio español.
+Después de la independencia, Guanajuato siguió siendo importante durante el México independiente, participando en distintos conflictos como la Reforma y la Revolución Mexicana, aunque con menor protagonismo que en la independencia.
+
+En el siglo XX y XXI, Guanajuato dejó de depender tanto de la minería y comenzó a desarrollarse industrialmente, especialmente en sectores como el automotriz y el calzado. Hoy en día es uno de los estados con mayor crecimiento económico del país.</p>
+</section>
+
+<section id="lugares">
+<h2>Lugares</h2>
+<p>Guanajuato es muy conocido por sus atractivos turísticos y cultura. Algunos de los lugares más populares son:</p>
+<ul>
+<li>Callejón del Beso: famoso por su leyenda romántica.</li>
+<li>Teatro Juárez: uno de los teatros más hermosos del país.
+</li>
+<li>Museo de las Momias de Guanajuato: exhibe momias naturales muy conocidas.
+</li>
+<li>San Miguel de Allende: ciudad colonial famosa por su arquitectura y turismo internacional.</li>
+<li>León: importante ciudad moderna, conocida por su industria y eventos.
+</li>
+</ul>
+<p>Además, el estado es sede del Festival Internacional Cervantino, uno de los eventos culturales más importantes de América Latina.</p>
+</section>
+
+<section id="cultura">
+<h2>Cultura</h2>
+<p>La cultura de Guanajuato es muy rica y combina tradiciones indígenas y españolas. Se caracteriza por su arte, música, festivales y costumbres que siguen vivas hasta hoy.
+Uno de los eventos más importantes es el Festival Internacional Cervantino, donde participan artistas de todo el mundo con obras de teatro, música y danza.
+Una tradición muy representativa son las callejoneadas, recorridos por las calles de la ciudad con música de estudiantinas, donde la gente canta y convive.
+También destacan sus celebraciones como el Día de Muertos, donde se hacen altares y ofrendas, y otras fiestas religiosas llenas de color y tradición.
+En el arte, Guanajuato es conocido por su arquitectura colonial, visible en lugares como el Teatro Juárez, además de museos y galerías.
+La gastronomía también forma parte de su cultura, con platillos típicos como las enchiladas mineras y dulces tradicionales como la cajeta.</p>
+</section>
+
+<section id="imagenes">
+<h2>Imágenes</h2>
+
+<div class="carrusel">
+<img src="al.jpg">
+<img src="bes.jpg">
+<img src="tea.jpg">
+<img src="cul.jpg">
+<img src="com.jpg">
+</div>
+
+</section>
+
+<section id="video">
+<h2>Video</h2>
+<iframe 
+    width="560" 
+    height="315" 
+    src="https://youtu.be/0TmhCqL89YU?si=yOiVPAcY3PTsrtZ2" 
+    title="Video de YouTube"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+</iframe>
+</section>
+
+<section id="ubicacion">
+<h2>Ubicación</h2>
+<iframe src="https://www.google.com/maps?q=Guanajuato,Mexico&output=embed"
+width="100%" height="300"></iframe>
+</section>
+
+<button id="topBtn" onclick="topFunction()">↑</button>
+
+<footer>
+<p>Proyecto Guanajuato</p>
+</footer>
+
+<script>
+// CARRUSEL
+let index = 0;
+const imgs = document.querySelectorAll(".carrusel img");
+
+setInterval(() => {
+    imgs[index].classList.remove("active");
+    index = (index + 1) % imgs.length;
+    imgs[index].classList.add("active");
+}, 2000);
+
+// SUBIR
+function topFunction() {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+}
+</script>
+
+</body>
+</html>
